@@ -1,0 +1,100 @@
+.account-management {
+  background-color: #222;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.account-management .header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+}
+
+.account-management .logo {
+  height: 50px;
+}
+
+.account-management .navigation {
+  display: flex;
+  gap: 15px;
+}
+
+.account-management .navigation button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.account-management .content {
+  flex-grow: 1;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account-management .personal-info,
+.account-management .payment-methods,
+.account-management .order-history {
+  width: 100%;
+  max-width: 600px;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.account-management .personal-info h2,
+.account-management .payment-methods h2,
+.account-management .order-history h2 {
+  color: #5555AA;
+}
+
+.account-management .personal-info input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #66CC66;
+  color: #5555AA;
+}
+
+.account-management .personal-info button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #FFAA00;
+  color: #222;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.account-management .footer {
+  width: 100%;
+  padding: 20px;
+  background-color: #333;
+  text-align: center;
+}
+
+.account-management .footer a {
+  color: #6666FF;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.account-management .footer p {
+  color: #5555AA;
+}
